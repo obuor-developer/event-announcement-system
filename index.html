@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Notification System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎉 Event Notification System</h1>
+            <p>Stay updated with the latest events!</p>
+        </header>
+
+        <main>
+            <!-- Subscription Section -->
+            <section class="card">
+                <h2>📧 Subscribe to Notifications</h2>
+                <form id="subscriptionForm">
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </form>
+                <div id="subscriptionMessage" class="message"></div>
+            </section>
+
+            <!-- Event Creation Section -->
+            <section class="card">
+                <h2>➕ Create New Event</h2>
+                <form id="eventForm">
+                    <div class="form-group">
+                        <label for="eventName">Event Name:</label>
+                        <input type="text" id="eventName" name="eventName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="eventDescription">Description:</label>
+                        <textarea id="eventDescription" name="eventDescription" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="eventDate">Event Date:</label>
+                        <input type="datetime-local" id="eventDate" name="eventDate" required>
+                    </div>
+                    <button type="submit">Create Event & Notify</button>
+                </form>
+                <div id="eventMessage" class="message"></div>
+            </section>
+
+            <!-- Recent Events Section -->
+            <section class="card">
+                <h2>📅 Recent Events</h2>
+                <div id="eventsList"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

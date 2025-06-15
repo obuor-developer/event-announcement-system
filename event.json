@@ -1,0 +1,25 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "name": "Welcome to Event System",
+            "description": "This is a demo event to show how the notification system works.",
+            "date": "2025-06-15T10:00:00",
+            "created_at": "2025-06-08T08:00:00Z"
+        },
+        {
+            "id": 2,
+            "name": "AWS Workshop",
+            "description": "Learn serverless architecture with AWS Lambda, SNS, and API Gateway.",
+            "date": "2025-06-20T14:00:00",
+            "created_at": "2025-06-07T12:00:00Z"
+        },
+        {
+            "id": 3,
+            "name": "Cloud Security Seminar",
+            "description": "Best practices for securing your cloud infrastructure.",
+            "date": "2025-06-25T16:00:00",
+            "created_at": "2025-06-06T10:00:00Z"
+        }
+    ]
+}
