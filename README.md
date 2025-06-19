@@ -1,31 +1,7 @@
 # event-announcement-system
 Frontend (S3) → API Gateway → Lambda Functions → SNS → Email Notifications
 
-![ChatGPT Image Jun 15, 2025, 06_06_21 AM](https://github.com/user-attachments/assets/0e8bc448-de92-4ba5-a591-82d1879ed6b4)
-
-Event Announcement System (SNS + Lambda + API Gateway)
-Add up to 4 tagsMaximum 4 selections
-Selected items:
-
-# cloudcomputing
-
-# cloudpractitioner
-
-# solutionarchitect
-
-Add another...
-Bold CTRL + B
-Italic CTRL + I
-Link CTRL + K
-Ordered list
-Unordered list
-Heading
-Quote
-Code
-Code block
-Embed CTRL + SHIFT + K
-No file chosenUpload image
-
+You can also access the project on Dev: https://dev.to/isaac_obuor_4ec2278316110/event-announcement-system-sns-lambda-api-gateway-59i1
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/trb52zre47sxnlhbv64i.png)
 
